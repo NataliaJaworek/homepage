@@ -3,16 +3,19 @@ body {
 }
 
 .mainHeader {
-    color: indigo;
-    font-size: 64px;
+    color: #424354;
 }
 
 .sectionHeader {
-    color: #1460AA;
-    background: #f0bcdf;
+    color: #747474;
+    background: #C5BAAF;
 }
 
 .mediumHeader {
     color: gray;
-    background: greenyellow;
+    background: #F2E0CE;
+}
+
+.link {
+    color: #79A5E0;
 }
