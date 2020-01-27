@@ -21,16 +21,59 @@ body {
 }
 
 .about {
-
+    position: relative;
 }
 
 .paragraph {
     padding-left: 16px;
     border: 3px solid gray;
+    overflow: hidden;
 }
 
 .main {
     width: 100%;
     max-width: 900px;
     margin: 32px auto;
+    padding-top: 15px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: palevioletred;
+    padding: 10px;
+    border: 10px solid rebeccapurple;
+    box-sizing: border-box;
+    position: sticky;
+    top: 15px;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rosybrown;
+    text-decoration: none;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
+}
+
+.section {
+    clear: left;
 }
